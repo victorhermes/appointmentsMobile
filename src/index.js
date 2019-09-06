@@ -1,13 +1,8 @@
-import React, {Fragment} from 'react';
-import {Text} from 'react-native';
-import Testo from '~/text';
+import React, { Fragment } from 'react';
+import Routes from './routes';
 
 const App = () => {
-    return (
-        <Fragment>
-            <Testo />
-        </Fragment>
-    );
+    return <Routes />;
 };
 
 export default App;
